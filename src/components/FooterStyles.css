@@ -1,6 +1,7 @@
 .footer {
     padding: 4rem 6rem;
-    background-color: rgb(103, 2, 103);
+    margin-top: 2rem;
+    background-color: #0C359E;
     color: aliceblue;
 }
 
@@ -19,7 +20,7 @@
 }
 
 .top i:hover {
-    color: rgb(255, 138, 255);
+    color: #1858f9;
 }
 
 .bottom {
@@ -54,7 +55,7 @@
     .footer i {
         margin: 1rem 1rem 0 0;
     }
-    .bottom div {
-        width: 50%;
-    }
+    /* .bottom div {
+        width: 30%;
+    } */
 }

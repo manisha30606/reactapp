@@ -13,7 +13,7 @@ export const MenuItems = [{
 
     },
     {
-        title: "Service",
+        title: "Destination",
         url: "/service",
         cName: "nav-links",
         icon: "fa-solid fa-briefcase"

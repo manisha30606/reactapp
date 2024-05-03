@@ -3,14 +3,20 @@
 }
 
 .destination h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    color: #0C359E;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
 }
-
+.destination p{
+    letter-spacing: .1rem;
+}
 .first-des {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 4.5rem;
+    
 }
 
 .first-des-reverse {
@@ -76,5 +82,11 @@
     }
     .image img {
         height: 230px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .destination h1{
+        font-size: 1.8rem;
     }
 }

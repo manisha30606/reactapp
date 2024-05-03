@@ -13,7 +13,7 @@ class Navbar extends Component{
             
            <nav className = "NavbarItems">
            
-           <h1 className="navbar-logo">Travel</h1>
+           <h1 className="navbar-logo">Explore Mate</h1>
            <div className="menu-icons" onClick={this.handleClick}>
             <i className={this.state.clicked ?"fas fa-times":"fas fa-bars"}>
 
@@ -30,7 +30,7 @@ class Navbar extends Component{
                     </li>
                     )
                 })}
-                <button>
+                <button className="btn">
                     Sign Up
                 </button>
            

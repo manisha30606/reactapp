@@ -1,22 +1,31 @@
 .trip {
-    margin: 4rem 6rem;
+    margin: 4rem 4rem;
     color: #2a2a2a;
+    display: flex;
+    flex-direction: column;
 }
 
 .trip h1 {
-    font-size: 3rem;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    color: #0C359E;
 }
-
+.trip-para{
+    letter-spacing: .1rem;
+    margin-top: 1.5rem;
+}
 .tripcard {
     display: flex;
     margin-top: 3rem;
     justify-content: space-between;
+   
 }
 
 .t-card {
-    width: 32%;
+    width: 95%;
+    
     text-align: start;
-    box-shadow: 0 5px 25px 2px rgba(143, 143, 143, 0.9);
+    box-shadow: 0 5px 25px 2px rgba(233, 233, 233, 0.9);
     border-radius: 7px;
     cursor: pointer;
     padding: 1rem .8rem;
@@ -41,17 +50,36 @@
 .t-card h4 {
     font-size: 1.3rem;
     padding: .9rem 0 .2rem 0;
+    color: #0C359E;
+}
+.handle_buttons{
+    margin: 2rem auto;
+    text-align: center;
+
+   
+}
+
+.left , .right{
+    font-size: 1.7rem;
+    background-color: #0C359E;
+    color: #fff;
+    padding: .2rem .5rem;
+    margin: 0 2rem;
+    border: none;
+    cursor: pointer;
 }
 
 @media screen and (max-width:850px) {
     .trip {
         margin: 4rem 2rem;
     }
-    .tripcard {
-        flex-direction: column;
-    }
-    .t-card {
-        width: 100%;
-        margin-bottom: 1.5rem;
+
+
+
+}
+
+@media screen and (max-width:450px) {
+    .trip h1{
+        font-size: 1.8rem;
     }
 }

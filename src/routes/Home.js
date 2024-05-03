@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Hero from"../components/Hero";
 import Navbar from"../components/Navbar";
 import Trip from "../components/Trip";
-import HomeImg from "../assests/22.jpg";
+import HomeImg from "../assests/40.jpg";
 
 
 
@@ -15,9 +15,9 @@ return(
     <Hero 
     cName="hero"
     heroImg ={HomeImg}
-    title="Your Journey Your Story"
-    text = "Choose Your Favourite Destination.Start Your Journey"
-    buttonText = "Start Travel"
+    title="Map Your Dreams with ExploreMate"
+    text = "Where Dreams Become Destinations, Your Journey Awaits."
+    buttonText = "Create a trip"
     url ="/"
     btnClass = "show"
     />

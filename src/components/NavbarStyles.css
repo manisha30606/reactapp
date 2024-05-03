@@ -19,6 +19,7 @@
     color: #222;
     font-size: 2rem;
     cursor: pointer;
+    font-family: "Caveat", cursive;
 }
 
 .nav-menu {
@@ -31,7 +32,7 @@
 
 .nav-links {
     text-decoration: none;
-    color: rgb(103, 2, 103);
+    color: #0C359E;
     font-size: 1.3rem;
     font-weight: 600;
     padding: 0.8rem;
@@ -44,7 +45,7 @@
 }
 
 .nav-links:hover {
-    background-color: rgb(103, 2, 103);
+    background-color: #0C359E;
     color: white;
     border-radius: 5px;
     transition: all 0.2s ease-in-out;
@@ -54,7 +55,7 @@
     display: none;
 }
 
-button {
+.btn {
     padding: 0.5rem 1rem;
     white-space: nowrap;
     border-radius: 0.5rem;
@@ -69,7 +70,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(103, 2, 103);
+    background-color: #0C359E;
     color: white;
     transition: all 0.2s ease-in-out;
 }
@@ -77,6 +78,7 @@ button:hover {
 @media screen and (max-width:1000px) {
     .NavbarItems {
         z-index: 99;
+        height: 60px;
     }
     .nav-menu {
         display: flex;
@@ -107,10 +109,10 @@ button:hover {
         padding: 2rem;
     }
     .nav-links:hover {
-        background-color: rgb(103, 2, 103);
+        background-color: #0C359E;
         transition: none;
     }
-    button {
+    .btn {
         display: none;
     }
     .menu-icons {
@@ -119,7 +121,7 @@ button:hover {
     }
     .menu-icons i {
         font-size: 1.2rem;
-        color: rgb(103, 2, 103);
+        color: #0C359E;
     }
     .nav-links-mobile {
         display: block;
@@ -128,14 +130,15 @@ button:hover {
         margin: auto;
         border-radius: 4px;
         width: 80%;
-        background: rgb(103, 2, 103);
+        background: #0C359E;
         color: white;
         font-size: 1.2rem;
         font-weight: 700;
         letter-spacing: 2px;
+       
     }
     .nav-links-mobile:hover {
-        background-color: rgb(103, 2, 103);
+        background-color: #0C359E;
         color: aliceblue;
     }
 }

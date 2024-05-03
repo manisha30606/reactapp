@@ -11,7 +11,7 @@ function Service() {
     <Hero 
     cName="hero-mid"
     heroImg = {ServiceImg}
-    title="Our Services"
+    title="Our Destination"
     text = "Choose Your Favourite Destination.Start Your Journey"
     btnClass = "hide"
      />
