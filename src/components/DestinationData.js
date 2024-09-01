@@ -1,8 +1,9 @@
 import { Component } from "react";
-import Mountain1 from "../assests/7.jpg";
-import Mountain2 from "../assests/2.jpg";
-import Mountain3 from "../assests/3.jpg";
-import Mountain4 from "../assests/4.jpg";
+import Mountain1 from "../assests/2.jpg";
+import Mountain2 from "../assests/6.jpg";
+import Mountain3 from "../assests/5.jpg";
+import Mountain4 from "../assests/8.jpg";
+
 
 import "./DestinationStyles.css";
 

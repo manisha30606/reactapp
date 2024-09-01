@@ -11,7 +11,7 @@ function ContactUs(){
             <input placeholder="E-mail" />
             <input placeholder="Subject" />
             <textarea placeholder="Message" rows="4"></textarea>
-          <button>Send Message</button>
+          <button className="btn">Send Message</button>
         </form>
         </div>
     )
