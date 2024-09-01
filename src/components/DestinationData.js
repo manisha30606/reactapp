@@ -3,7 +3,10 @@ import Mountain1 from "../assests/2.jpg";
 import Mountain2 from "../assests/6.jpg";
 import Mountain3 from "../assests/5.jpg";
 import Mountain4 from "../assests/8.jpg";
+<<<<<<< HEAD
 
+=======
+>>>>>>> 73ee2943eb44ac4b88fb6984b12fa5c24fb588f7
 
 import "./DestinationStyles.css";
 
